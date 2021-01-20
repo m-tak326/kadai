@@ -1,0 +1,865 @@
+*, *:before, *:after {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+html {
+  display: block;
+}
+
+body {
+  display: block;
+}
+
+header {
+  display: block;
+}
+
+body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4, h5, h6, form, select {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.content-width {
+  max-width: 1140px;
+  padding: 0 50px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.site-header {
+  width: 100%;
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contents-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  width: auto;
+  height: 20px;
+}
+
+.hover-opacity:hover {
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+nav {
+  display: block;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.site-header-inner > *:last-child {
+  display: inline-flex;
+}
+
+.header-nav-list {
+  position: relative;
+  align-items: center;
+}
+
+.header-nav-item {
+  display: block;
+}
+
+.header-nav .header-nav-item > span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header-nav .header-nav-item > span:last-child {
+  font-size: 10px;
+}
+
+.header-nav-list > li + li {
+  margin-left: 30px;
+}
+
+.header-nav-list > li + li:last-child {
+  margin-left: 20px;
+}
+
+.header-btn {
+  width: 150px;
+}
+
+.link-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f79314;
+  width: 100%;
+  border-radius: 30px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.link-btn.menu {
+  height: 40px;
+  color: white;
+  font-size: 12px;
+  line-height: 40px;
+}
+
+/* 以下からmain-setion top-hero*/
+
+main {
+  display: block;
+}
+
+.top-hero {
+ padding-top: 190px;
+ padding-bottom: 30px;
+ background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero.png);
+ background-repeat: no-repeat;
+ background-size: auto 100%;
+ background-position: right 0;
+}
+
+.top-hero-box {
+  position: relative;
+  max-width: 340px;
+}
+
+.top-hero-box .top-hero-logo > img {
+  width: 100%;
+  height: auto;
+}
+
+.top-hero-box .top-hero-text {
+  margin-top: 30px;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+.top-hero-box .top-hero-text > span {
+  color: orange;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.top-hero-btn {
+  margin-top: 30px;
+}
+
+.link-btn.top-hero-link {
+  height: 60px;
+  color: white;
+  font-size: 16px;
+  line-height: 60px;
+}
+
+.top-hero-box .no1-logo img {
+  width: 154px;
+  height: 154px;
+  position: absolute;
+  top: 0;
+  left: 355px;
+}
+
+.annotation1 {
+  max-width: 510px;
+  padding-top: 130px;
+}
+
+.annotation1-text {
+  font-size: 10px;
+  color: gray;
+}
+
+/* 以下からmain-setion top-about*/
+
+.main-section {
+  padding-bottom: 80px;
+}
+
+.top-about {
+  background-color: #f79314;
+  padding-top: 45px;
+}
+
+.for-student-discount {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.top-about-content {
+  color: white;
+}
+
+.top-about-text {
+  width: 53%;
+}
+
+.top-about-text h1 {
+  font-size: 36px;
+}
+
+.top-about-text span {
+  font-size: 46px;
+}
+
+.top-about-text p {
+  margin-top: 10px;
+  line-height: 30px
+}
+
+.top-about-btn {
+  width: 320px;
+}
+
+.link-btn.inversion {
+  background-color: white;
+  color: #f79314;
+}
+
+.link-btn span:first-child {
+  letter-spacing: 5px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.link-btn span:last-child {
+  font-size: 14px;
+} 
+
+/* 以下からmain-setion */
+
+.main-section {
+  padding-top: 80px;
+}
+
+.section-header.contents-line {
+  flex-direction: column;
+  text-align: center;
+}
+
+.section-header h1 {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.section-header p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.section-header.bottom-line::after {
+  content: "";
+  border-bottom: solid 5px #f79314;
+  width: 50px;
+  margin-top: 20px;
+}
+
+.section-content {
+  margin-top: 60px;
+}
+
+.asc-list.list-number {
+  margin-top: 110px;
+}
+
+.asc-list > li {
+  background-color: #fcfaf5;
+  border-radius: 20px;
+  text-align: center;
+  padding: 40px;
+}
+
+.list-no {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -90px auto 0 auto;
+  background-color: #fcfaf5;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f79314;
+}
+
+.list-title {
+  font-size: 30px;
+  margin-top: -20px;
+}
+
+.asc-list .list-text {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+
+.asc-list .example {
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 40px;
+  padding: 30px;
+}
+
+.asc-list .example-title {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.asc-list .example-title img {
+  margin-left: 10px;
+  width: 35px;
+}
+
+.asc-list .example-title::after {
+  content: "";
+  display: block;
+  border-bottom: solid 4px #f79314;
+  margin-top: 5px;
+}
+
+.asc-list .example-contents {
+  margin-top: 15px;
+}
+
+.asc-list .example-contents > li {
+  width: 25%;
+  padding: 0 20px;
+}
+
+.example-contents.contents-line {
+  flex-wrap: wrap;
+}
+
+.asc-list > li + li {
+  margin-top: 90px;
+}
+
+.list-text > span {
+  font-size: 26px;
+  font-weight: bold;
+  color: #f79314;
+}
+
+.asc-list .example.chart {
+  padding: 40px 70px;
+}
+
+.asc-list .chart-list > li {
+  padding: 0 50px;
+  width: calc(100% / 3);
+}
+
+.asc-list .chart-list img {
+  width: 100%;
+}
+
+.engineer-list {
+  margin-top: 40px;
+}
+
+.engineer-list .engineer-box {
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 10px;
+  width: calc(100% / 3);
+}
+
+.engineer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.engineer-company-logo {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.engineer-profile {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.engineer-name {
+  text-align: left;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.engineer-name.contents-line {
+  flex-direction: column;
+}
+
+.engineer-name > span {
+  color: #f79314;
+  font-size: 14px;
+}
+
+.engineer-text {
+  width: 100%;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  position: relative;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.engineer-text::before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 30px;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid #f6f6f6;
+}
+
+/* 以下からmain-setion top-course*/
+
+.main-section.top-course {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  background-color: #f6f6f6;
+}
+
+.top-course .content-width {
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/bg-section-top-course.png);
+  background-repeat: no-repeat;
+  background-size: 281px 275px;
+  background-position: calc(100% - 50px) top;
+  padding-top: 40px;
+}
+
+.top-course {
+  font-weight: 700;
+}
+
+.course-info {
+  background-color: white;
+  padding: 30px;
+}
+
+.course-title {
+  width: 30%;
+  margin: 0 30px 0 -50px;
+  border: solid 3px;
+}
+
+.course-info.open .course-title {
+  border-image: linear-gradient(to right, #ff6d00 0%, #f79214 100%);
+  border-image-slice: 1;
+}
+
+.course-info.career .course-title {
+  border-image: linear-gradient(to right, #f79214 0%, #ff6d00 100%);
+  border-image-slice: 1;
+}
+
+.course-title.contents-line {
+  justify-content: center;
+  align-items: center;
+}
+
+.course-title p {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.course-contents {
+  width: calc(70% + 30px);
+  position: relative;
+}
+
+.course-text {
+  font-size: 16px;
+}
+
+.course-info.open .course-text {
+  color: #f79314;
+}
+
+.course-info.career .course-text {
+  color: #ff6d00;
+}
+
+.course-contents > div {
+  margin-top: 20px;
+}
+
+.course-contents > div p {
+  display: inline-block;
+  color: white;
+  background: linear-gradient(90deg, #212121, #444);
+  padding: 2px 20px;
+  border-radius: 20px;
+}
+
+.conditions-list {
+  margin-top: 7px;
+  padding-bottom: 20px;
+}
+
+.conditions::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  background-color: #f79214;
+  border-radius: 50%;
+  margin: 0 8px;
+}
+
+.course-link {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  font-size: 12px;
+  color: gray;
+}
+
+.course-link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: -18px;
+  bottom: 4px;
+  border-right: #f79214 3px solid;
+  border-top: #f79214 3px solid;
+  transform: rotate(45deg);
+}
+
+.course-list > li + li {
+  margin-top: 40px;
+}
+
+.course-btn {
+  margin: 60px auto 0 auto;
+  width: 300px;
+}
+
+/* 以下からmain-setion top-service*/
+
+.main-section.top-service {
+  background-color: #fcfaf5;
+}
+
+.message-title {
+  position: relative;
+  font-size: 44px;
+  color: #ff802c;
+  margin-left: 20px;
+  z-index: 1;
+}
+
+.message-contents.contents-line {
+  align-items: center;
+}
+
+.message-contents {
+  position: relative;
+  margin-top: -30px;
+}
+
+.message-text {
+  background-color: white;
+  padding: 40px 150px 40px 40px;
+  margin-right: -100px;
+}
+.message-text p {
+  line-height: 2;
+  font-weight: 500;
+}
+
+.message-text p + p {
+  margin-top: 30px;
+}
+
+.message-picture {
+  position: relative;
+}
+
+.message-picture p {
+  position: absolute;
+  padding: 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.message-picture p span {
+  font-size: 24px;
+}
+
+/* 以下からmain-setion top-interview*/
+
+.interview-list {
+  margin: 0 -20px;
+}
+
+.interview-list > li {
+  padding: 0 20px;
+  width: calc(100% / 3);
+}
+
+.interview-picture {
+  position: relative;
+  padding-top: 100%;
+  overflow: hidden;
+}
+
+.interview-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: radial-gradient(#dfdfdf 10%,#000000 90%);
+}
+
+.hover-scale:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+.interview-picture-titlebox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 80px 20px 15px;
+  background: linear-gradient(to top,rgba(0, 0, 0, 0.9), rgba(50, 50, 50, 0))
+}
+
+.interview-picture-title {
+  color: #f79314;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.intervier-picture-subtitle {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px solid white;
+}
+
+.intervier-picture-subtitle > :last-child {
+  font-size: 12px;
+  margin-left: 15px;
+  
+}
+
+.intervier-picture-subtitle .name {
+  font-size: 20px;
+}
+
+.interview-picuture-text {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.hover-text-color:hover {
+  color: #f79314;
+}
+
+.interview-btn {
+  margin: 60px auto 0 auto;
+  width: 300px;
+}
+
+/* 以下からmain-setion top-site*/
+
+.top-site .content-width  {
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/bg-section-top-course.png);
+  background-repeat: no-repeat;
+  background-size: 281px 275px;
+  background-position: calc(100% - 50px) top;
+  padding-top: 40px;
+}
+
+.main-section.top-site {
+  background-color: #f6f6f6;
+  padding-top: 40px;
+}
+
+.site-list > li {
+  padding: 0 20px;
+  width: calc(100% / 3);
+}
+
+.service-picture-box {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 0 20px;
+  height: 190px;
+}
+
+.service-picture img {
+  width: 100%;
+}
+
+.service-picture-box.orange {
+  border-color: #fc6803;
+}
+
+.service-picture-box.green {
+  border-color: #08af77;
+}
+
+.service-picture-box.black {
+  border-color: black;
+}
+
+.service-picture-text {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* 以下からsite-footer*/
+
+.site-footer {
+  padding: 80px 0 40px;
+  background-color: #f79314;
+}
+
+.page-top-btn {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -105px;
+  right: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.page-top-allow {
+  width: 10px;
+  height: 10px;
+  border-left: solid 3px #f79214;
+  border-top: solid 3px #f79214;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.footer-info {
+  color: white;
+}
+
+.footer-logo {
+  display: inline-block;
+  max-width: 280px;
+}
+
+.footer-logo img {
+  width: 100%;
+}
+
+.footer-company {
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+.footer-address {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-social {
+  display: flex;
+  margin-top: 35px;
+}
+
+.footer-social > li + li {
+  margin-left: 20px;
+}
+
+.footer-social-icon {
+  display: inline-block;
+  max-width: 60px;
+}
+
+.footer-social-icon > img {
+  width: 100%;
+}
+
+.footer-nav-item {
+  color: white;
+  font-weight: bold;
+}
+
+.footer-nav-item > span {
+  margin-left: 12px;
+  font-weight: normal;
+}
+
+.footer-nav > li + li {
+  margin-top: 30px;
+}
+
+.footer-character {
+  align-self: flex-end;
+}
+
+.footer-character img {
+  height: 70px;
+}
+
+.site-footer-sub {
+  margin-top: 60px;
+}
+
+.site-footer-copyright {
+  font-size: 10px;
+  color: white;
+}
